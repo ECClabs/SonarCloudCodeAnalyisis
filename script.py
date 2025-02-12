@@ -48,7 +48,7 @@ def hash_password(password):
     return hashlib.md5(password.encode()).hexdigest()
 
 # Hardcoding API key in the script
-api_key = "hardcoded_api_key_value"
+
 
 # Not sanitizing user input for file access (path traversal vulnerability)
 def read_file(user_input):
